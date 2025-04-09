@@ -3,121 +3,92 @@ html, body, a, p, span, input, h1, h2, h3, h4, h5, h6, button, li, ul {
   font-family: 'Lahzeh' !important;
 }
 
-
-/* Add custom CSS styles below */ 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraBold.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraBold.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraBold.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraBold.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraBold.svg#Lahzeh-ExtraBold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-ExtraBold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-ExtraBold.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Bold.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Bold.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Bold.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Bold.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Bold.svg#Lahzeh-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Bold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Bold.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Black.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Black.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Black.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Black.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Black.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Black.svg#Lahzeh-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Black.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Black.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-SemiBold.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-SemiBold.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-SemiBold.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-SemiBold.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-SemiBold.svg#Lahzeh-SemiBold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-SemiBold.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-SemiBold.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Regular.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Regular.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Regular.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Regular.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Regular.svg#Lahzeh-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Regular.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Regular.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraLight.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraLight.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraLight.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraLight.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-ExtraLight.svg#Lahzeh-ExtraLight') format('svg');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-ExtraLight.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-ExtraLight.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Light.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Light.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Light.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Light.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Light.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Light.svg#Lahzeh-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Light.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Light.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Thin.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Thin.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Thin.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Thin.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Thin.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Thin.svg#Lahzeh-Thin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Thin.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Thin.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lahzeh';
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Medium.eot');
-    src: url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Medium.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Medium.woff2') format('woff2'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Medium.woff') format('woff'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Medium.ttf') format('truetype'),
-        url('https://github.com/saadfaris/ombdr-assets/blob/main/Lahzeh-Medium.svg#Lahzeh-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: 'Lahzeh';
+  src: url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Medium.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Medium.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/gh/saadfaris/ombdr-assets@latest/Lahzeh-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
